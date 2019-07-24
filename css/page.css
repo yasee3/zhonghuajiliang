@@ -18,6 +18,7 @@ page{
     animation: x 10s infinite;
 }
 #q{
+    background-image：url（"/汉服.jpg"）;
     background-color: yellow;
     animation: q 10s infinite;
 }
