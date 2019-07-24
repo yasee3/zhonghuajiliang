@@ -11,21 +11,36 @@ page{
 }
 #c{
     background-color: lightgreen;
-    animation: c 10s infinite;
+    animation: c 10.3s infinite;
 }
 #x{
     background-color: red;
-    animation: x 10s infinite;
+    animation: x 10.3s infinite;
 }
 #q{
-    background-image：url（"/汉服.jpg"）;
-    background-color: yellow;
-    animation: q 10s infinite;
+    background-image: url("../q.jpg");
+    background-size: 100% 100%;
+    animation: q 10.3s infinite;
+    color: yellowgreen;
 }
+
 #d{
     background-color: black;
-    animation: d 10s infinite;
+    background-size: 100% 100%;
+    animation: d 10.3s infinite;
     color: white;
+}
+#z{
+    font-size: 36px;
+    display: block;
+    animation: z 10.3s infinite;
+}
+@keyframes z {
+    0%{opacity: 0}
+    70%{opacity: 0}
+    80%{opacity: 100}
+    100%{opacity: 100}
+    100%{opacity: 0}
 }
 @keyframes c {
     0%{opacity: 0}
